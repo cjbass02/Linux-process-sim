@@ -1,0 +1,19 @@
+Simulation started: Preemption: False
+
+2: Staring process with PID: 1 PRIORITY: 1
+2: Process scheduled to run with PID: 1 PRIORITY: 1
+3: Staring process with PID: 2 PRIORITY: 2
+4: Process with PID: 1 waiting for I/O device 1
+4: Process scheduled to run with PID: 2 PRIORITY: 2
+6: Ending process with PID: 2
+7: I/O completed for I/O device 1
+7: Process scheduled to run with PID: 1 PRIORITY: 1
+10: Ending process with PID: 1
+
+Simulation ended at time: 10
+System idle time: 3
+
+Process Information:
+PID: 2, PRIORITY: 2, READY WAIT TIME: 1, I/O WAIT TIME: 0
+PID: 1, PRIORITY: 1, READY WAIT TIME: 0, I/O WAIT TIME: 3
+

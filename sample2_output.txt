@@ -1,0 +1,31 @@
+Simulation started: Preemption: True
+
+2: Staring process with PID: 1 PRIORITY: 1
+2: Process scheduled to run with PID: 1 PRIORITY: 1
+3: Staring process with PID: 2 PRIORITY: 2
+3: Process scheduled to run with PID: 2 PRIORITY: 2
+4: Staring process with PID: 3 PRIORITY: 3
+4: Process scheduled to run with PID: 3 PRIORITY: 3
+5: Staring process with PID: 4 PRIORITY: 4
+5: Process scheduled to run with PID: 4 PRIORITY: 4
+6: Staring process with PID: 5 PRIORITY: 5
+6: Process scheduled to run with PID: 5 PRIORITY: 5
+7: Ending process with PID: 5
+7: Process scheduled to run with PID: 4 PRIORITY: 4
+8: Ending process with PID: 4
+8: Process scheduled to run with PID: 3 PRIORITY: 3
+9: Ending process with PID: 3
+9: Process scheduled to run with PID: 2 PRIORITY: 2
+10: Ending process with PID: 2
+10: Process scheduled to run with PID: 1 PRIORITY: 1
+11: Ending process with PID: 1
+
+Simulation ended at time: 11
+System idle time: 2
+
+Process Information:
+PID: 5, PRIORITY: 5, READY WAIT TIME: 0, I/O WAIT TIME: 0
+PID: 4, PRIORITY: 4, READY WAIT TIME: 1, I/O WAIT TIME: 0
+PID: 3, PRIORITY: 3, READY WAIT TIME: 3, I/O WAIT TIME: 0
+PID: 2, PRIORITY: 2, READY WAIT TIME: 5, I/O WAIT TIME: 0
+PID: 1, PRIORITY: 1, READY WAIT TIME: 7, I/O WAIT TIME: 0
